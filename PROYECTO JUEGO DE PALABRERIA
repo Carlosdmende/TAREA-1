@@ -1,0 +1,263 @@
+print("Vas camimando por la playa y te encontrai con un pikachu salvaje")
+print("")
+print("¿Qué quieres hacer?")
+print("ATACAR")
+print("HUIR")
+print("")
+
+opcion1 = input("que hacei?: ")
+if opcion1 in["ATACAR","Atacar","atacar"]:
+    print("")
+    print("te gruñio y te ataca con un rayo, quedas paralizado y el pikachu se escapa")
+    print("")
+
+    print("que vas a hacer ahora")
+    print("PERSEGUIRLO")
+    print("CURARTE")
+    print("")
+    
+    opcion2 = input("que hacei: ")
+    if opcion2 in["PERSEGUIRLO","Perseguirlo","perseguirlo"]:
+        print("")
+        print("usas tus ultimas fuerzas pero no logras alcanzarlo por la paralisis y el pikachu se acerca para burlarse de ti")
+        print("el pikachu al burlarse de ti, te enojas y revisas tu bolsa y encuentras 3 objetos")
+        print("")
+        print("cual vas a usar para lanzarle al pikachu?")
+        print("BAYA")
+        print("POKEBOLA")    
+        print("PIEDRA")
+        print("")
+
+        opcion3 = input("que objeto usas: ")    
+        if opcion3 in["BAYA","Baya","baya"]:
+            print("")
+            print("le has lanzado una baya al pikachu y se ha distraido comiendose la baya")
+            print("el pikachu empezo a encarinarse contigo pero aun sigue renuente a ser atrapado")
+            print("")
+            print("que haras ahora ") 
+            print("DEJARLO")
+            print("CURARLO")
+            print("GOLPEARLO")
+            print("")
+            opcion4 = input("que haras: ")
+            if opcion4 in["DEJARLO","Dejarlo","dejarlo"]:
+                print("")
+                print("el pikachu no te quiere abandonar al ver que te rendiste")
+                print("el pikachu no se deja capturar pero aun asi te acompaña en tu aventura por la playa")
+                print("se encuentran con un gyarados ")
+                print("")
+                print("que haras?")
+                print("LUCHAR")
+                print("AYUDAME")
+                print("IGNORAR")
+                print("")
+                opcion5 = input("que haras: ")
+                if opcion5 in["LUCHAR","Luchar","luchar"]:
+                    print("")
+                    print("el pikachu al ver que lo obligas te deja solo contra el gyarados y te ataca con una hidrobomba al fallo")
+                    print("estas agotado, deteriorado, vuelto nada y decides irte a casa a descansar")
+                    print("llegas a tu casa pero la cena aun no esta hecha ya que vives solo y no sabes que hacer")
+                    print("")
+                    print("que vas a hacer")
+                    print("COCINAR")        
+                    print("LLORAR")
+                    print("")
+                    opcion6 = input("que haras: ")
+                    if opcion6 in["COCINAR","Cocinar","cocinar"]:
+                        print("")
+                        print("te haces una ensalada que cura todos los males y te ries recordando lo que te paso. FIN.")
+
+                    elif opcion6 in["LLORAR","Llorar","llorar"]:
+                        print("")
+                        print("te sientes solo y triste y te arrepientes de haber elegido mal. FIN.")
+
+                elif opcion5 in["AYUDAME","Ayudame","ayudame"]:
+                    print("")
+                    print("el pikachu al ver que le pides ayuda se une a tu equipo para luchar contra el gyarados, logran vencerlo juntos y se convierten en grandes amigos")
+                    print("decides llevarlo a tu casa para descansar pero aun asi no sabes que hacer con el")
+                    print("LIBERARLO")
+                    print("ADOPTARLO")
+                    print("")
+                    opcion6 = input("decide: ")
+                    if opcion6 in["LIBERARLO","Liberarlo","liberarlo"]:
+                        print("")
+                        print("decides liberar al pikachu para que siga su vida en la playa, el pikachu se despide de ti y se va feliz a seguir su aventura por la playa. FIN.")
+
+                    elif opcion6 in["ADOPTARLO","Adoptarlo","adoptarlo"]:
+                        print("")
+                        print("decides adoptar al pikachu y llevarlo a tu casa, el pikachu se siente feliz de tener un nuevo hogar contigo y se convierte en tu mejor amigo. FIN.")
+
+                elif opcion5 in["IGNORAR","Ignorar","ignorar"]:
+                    print("")
+                    print("ignoran al gyarados y siguen su aventura en la playa hasta que anochece y no sabes que hacer")
+                    print("ACAMPAR")
+                    print("DESPEDIRSE")
+                    print("")
+                    opcion6 = input("decide: ")
+                    if opcion6 in["ACAMPAR","Acampar","acampar"]:
+                        print("")
+                        print("decides acampar en la playa con el pikachu, pasan una noche tranquila y al amanecer decide quedarse junto a ti por siempre <3. FIN.")
+
+                    elif opcion6 in["DESPEDIRSE","Despedirse","despedirse"]:
+                        print("")
+                        print("decides despedirte del pikachu y seguir tu camino solo, el pikachu se siente triste pero entiende tu decision y se despide de ti con un abrazo. FIN.")
+
+                else:
+                    print("opcion no valida, el pikachu se siente ofendido por tu indecision y te ataca junto al gyarados y te hospitalizan de tremenda paliza")
+
+
+
+
+
+            elif opcion4 in["CURARLO","Curarlo","curarlo"]:
+                print("")
+                print("le has curado algunas heridas que le hiciste y ahora se siente mas comodo contigo")
+                print("")
+                print("que haran?")
+                print("EXPLORAR")
+                print("JUGAR")
+                print("")
+                opcion5 = input("que haran: ")
+                if opcion5 in["EXPLORAR","Explorar","explorar"]:
+                    print("")
+                    print("deciden explorar la playa juntos y encuentran un tesoro escondido, se hacen ricos pero no saben que hacer con tanto dinero")
+                    print("")
+                    print("Decide")
+                    print("APOSTAR")
+                    print("INVERTIR")
+                    print("AHORRAR")
+                    print("")
+                    opcion6 = input("decide: ")
+                    if opcion6 in["APOSTAR","Apostar","apostar"]:
+                        print("")
+                        print("decides apostar todo tu dinero en un casino apostando todo al rojo, terminan ganando haciendose el doble de ricos y ahora viven lajaos. FIN.")
+
+                    elif opcion6 in["INVERTIR","Invertir","invertir"]:
+                        print("")
+                        print("decides invertir tu dinero en un negocio y logras hacer crecer tu fortuna, el pikachu se siente orgulloso de ti y se vuelven unos magnates del petrolio y deciden invertir en paldea. FIN.")
+
+                    elif opcion6 in["AHORRAR","Ahorrar","ahorrar"]:
+                        print("")
+                        print("decides ahorrar tu dinero y vivir una vida tranquila, el pikachu se siente feliz contigo . FIN.")
+
+                elif opcion5 in["JUGAR","Jugar","jugar"]:
+                    print("")
+                    print("deciden jugar juntos y se divierten mucho, el pikachu se siente feliz. FIN.")
+                    print("")
+                    print("que jugaran?")
+                    print("VOLEIBOL")
+                    print("FUTBOL")
+                    opcion6 = input("decide: ")
+                    if opcion6 in["VOLEIBOL","Voleibol","voleibol"]:
+                        print("")
+                        print("llegan una pikachu y una chama a unirseles al juego y termina siendo un 2 pa 2. FIN.")
+
+                    elif opcion6 in["FUTBOL","Futbol","futbol"]:
+                        print("")
+                        print("un cazatalentos los ve jugar y les ofrece un contrato multimillonario. FIN.")
+
+            elif opcion4 in["GOLPEARLO","Golpearlo","golpearlo"]:
+                print("")
+                print("te armas de valor y le lanzas un puñetazo por la espalda pero se da cuenta y por reflejo te electrocuta otra vez")
+                print("")
+                print("decide")
+                print("MOFARTE")
+                print("VENGARTE")
+                print("")
+                opcion5 = input("decide: ")
+                if opcion5 in["MOFARTE","Mofarte","mofarte"]:
+                    print("")
+                    print("te mofas del pikachu y el pikachu se siente ofendido y el pikachu se va con lo que queda de la baya. FIN.")
+                
+                elif opcion5 in["VENGARTE","Vengarte","vengarte"]:
+                    print("")
+                    print("estas punto de tirarle una piedra para vengarte y recuerdas una frase de tu abuela")
+                    print("la frase es: la venganza es mala mata el alma y la envenena.")
+                    print("")
+                    print("que haras?")
+                    print("ARREPENTIRTE")
+                    print("REZAR")
+                    print("")
+                    opcion6 = input("decide: ")
+                    if opcion6 in["ARREPENTIRTE","Arrepentirte","arrepentirte"]:
+                        print("")
+                        print("decides arrepentirte de tu accion y no le lanzas la piedra al pikachu, el pikachu se siente aliviado de que no le hayas hecho daño y se queda contigo para seguir tu aventura por la playa. FIN.")
+
+                    elif opcion6 in["REZAR","Rezar","rezar"]:
+                        print("")
+                        print("decides rezar para pedir perdon y el pikachu se siente iluminado, y decide seguir la senda del dios arceus. FIN.")
+
+
+                
+                
+
+            else:
+                print("opcion no valida, el pikachu se ha ido con lo que queda de la baya")
+
+
+        elif opcion3 in["POKEBOLA","Pokebola","pokebola"]:
+            print("")
+            print("le lanzas la pokeball al pikachu pero la batea con su cola")
+            print("el pikachu se burla de ti y se va a seguir su aventura por la playa")
+            print("estas tan frustrado que decides dejarlo ir y quedarte acostado en la arena. fin")
+
+            
+        elif opcion3 in["PIEDRA","Piedra","piedra"]:
+            print("")
+            print("le lanzas una piedra al pikachu y lo golpea, el pikachu se enoja y da un coletazo q te deja viendo estrellas")
+            print("")
+            print("y ahora?")
+            print("HOSPITAL")
+            print("NADA")
+            print("")
+            opcion4 = input("decide: ")
+            if opcion4 in["HOSPITAL","Hospital","hospital"]:
+                print("")
+                print("decides ir al hospital para curarte de la paralisis y las heridas, te prometes no volver a hacer algo asi. FIN.")
+            
+            elif opcion4 in["NADA","Nada","nada"]:
+                print("")
+                print("decides no hacer nada pero tienes una contusion y te desmayas. FIN.")
+
+        else:
+            print("no tienes ese objeto en tu bolsa, el pikachu se da cuenta de tu intencion, el pikachu se acerca para atacarte con un rayo y te derrota")
+
+
+
+    
+    elif opcion2 in["CURARTE","Curarte","curarte"]:
+        print("")
+        print("Te curas de la paralisis gracias a una baya y el mismo olor de la baya atrajo al pikachu")
+        print("el pikachu se siente muy atraido por la baya y tienes una idea")
+        print("")
+        print("que piensas?")
+        print("COMPARTIR")
+        print("TRATO")
+        print("")
+        opcion3 = input("que piensas: ")
+        if opcion3 in["COMPARTIR","Compartir","compartir"]:
+            print("")
+            print("decides compartir la baya con el pikachu y el pikachu se siente muy feliz de compartir contigo y se convierte en tu amigo inseparable. FIN.")
+
+        elif opcion3 in["TRATO","Trato","trato"]:
+            print("")
+            print("decides hacer un trato con el pikachu, le das la baya a cambio de que te deje acompañarlo en su aventura por la playa, el pikachu acepta el trato y se convierte en tu compañero de aventuras")
+            print("siempre y cuando haiga bayas de por medio estara contigo. FIN.?")
+
+
+    
+
+    else:
+        print("opcion no valida, te quedas paralizado en el suelo sin fuerzas y el pikachu se burla de ti y se escapa")
+
+
+
+elif opcion1 in["HUIR","Huir","huir"]:
+    print("")
+    print("piensas en que nada bueno podria pasar si peleas con el pikachu sin un pokemon de companero ")
+    print("piensas que la vida de maestro pokemon no es para ti y decides huir")
+    print("piensas que trabajar no seria tan malo despues de todo o apostar. FIN.")
+
+
+else:
+    print("opcion no valida, el pikachu se da cuenta de tu indecision y te ataca con un rayo, quedas paralizado por tonto")
